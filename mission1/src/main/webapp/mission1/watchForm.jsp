@@ -14,7 +14,7 @@
   border: 0;
 }
 </style>
-<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="<%=request.getContextPath() %>/resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <!-- <body onload="showtime()" onunload="killtime()"> -->
   <body>
@@ -23,7 +23,7 @@
     <!-- <input type="text" id="clock" name="clock" size="50" class="time" readonly> -->
   </form>
   
-<script src="js/jquery.js"></script>
+<script src="<%=request.getContextPath() %>/resources/js/jquery.js"></script>
 <script>
   //ajax 객체의 기본값 지정
   $.ajaxSetup({datatype:"text"});
