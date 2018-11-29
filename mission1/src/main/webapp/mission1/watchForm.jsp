@@ -14,7 +14,6 @@
   border: 0;
 }
 </style>
-<link href="<%=request.getContextPath() %>/resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <!-- <body onload="showtime()" onunload="killtime()"> -->
   <body>
