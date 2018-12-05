@@ -26,7 +26,7 @@ public class mission1Cont {
   @RequestMapping(value="/watch.do", method=RequestMethod.GET)
   public ModelAndView watchForm() {
     ModelAndView mav = new ModelAndView();
-    mav.setViewName("mission1/watchForm");
+    mav.setViewName("watchForm");
     return mav;
   }//watchForm() end
   
